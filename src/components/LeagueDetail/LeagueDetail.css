@@ -1,0 +1,42 @@
+.league-pic img{
+    width: 310px;
+    
+   
+}
+.league-pic{
+    border: 1px solid green;
+    align-items: center;
+    display: flex;
+    /* margin-left: 55px; */
+    margin: auto;
+    
+}
+.league-detail{
+    background-color: rgb(139, 139, 165);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.detail-container{
+    margin: auto;
+    width: 80%;
+    border: 1px solid red;
+}
+.league-info{
+    border: 1px solid black;
+    height: 200px;
+    color: white;
+    
+}
+.description{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .league-detail{
+        flex-direction: column;
+    }
+    .league-info{
+        height: 250px;
+        
+    }
+}
