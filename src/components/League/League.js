@@ -13,7 +13,7 @@ const League = (props) => {
         <div className="league">
             {/* <h1>id: {idLeague}</h1>
             <h2>Name: {strLeague}</h2> */}
-            <Card style={{ width: '18rem' , height: '16rem', borderRadius: '10px', boxShadow: '5px 5px 5px 5px lightgray'}}>
+            <Card className="card-league" style={{ width: '18rem' , height: '16rem', borderRadius: '10px', boxShadow: '5px 5px 5px 5px lightgray'}}>
                 <div className="text-center">
                     <Card.Img variant="top" src={strBadge} style={{width: '5rem', marginTop: '5px'}}/>
                 </div>

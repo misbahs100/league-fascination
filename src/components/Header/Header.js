@@ -3,7 +3,7 @@ import './Header.css';
 
 
 const Header = (props) => {
-    console.log(props.banner)
+    // console.log(props.banner)
 
     return (
         <div className="header">

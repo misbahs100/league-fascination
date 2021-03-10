@@ -9,5 +9,15 @@
     /* margin-left: 5px; */
 }
 .exploreBtn{
-
+    transition: transform 0.5s, padding 0.5s;
+}
+.exploreBtn:hover{
+    padding: 7px 40px;
+    transform: translateZ(20px);
+}
+.card-league{
+    transition: transform 0.5s;
+}
+.card-league:hover{
+    transform: translateY(-10px);
 }
