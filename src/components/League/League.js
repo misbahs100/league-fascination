@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { Button, Card } from 'react-bootstrap';
+import React from 'react';
+import { Card } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import './League.css';
 import { Link } from 'react-router-dom';
 

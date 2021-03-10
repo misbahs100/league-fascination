@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import headerPic from '../../images/background.jpg';
+
 
 const Header = (props) => {
     console.log(props.banner)
