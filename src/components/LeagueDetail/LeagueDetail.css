@@ -64,8 +64,8 @@
     }
     .league-info{
         height: 270px;
-        padding: 25px;
-        
+        padding: 20px;
+        margin-bottom: 5px;
     }
     .league-pic{
         margin: auto;
