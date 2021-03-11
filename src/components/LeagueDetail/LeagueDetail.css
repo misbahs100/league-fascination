@@ -64,18 +64,20 @@
     }
     .league-info{
         height: 250px;
+        padding: 25px;
         
     }
     .league-pic{
         margin: auto;
     }
     .league-pic img{
-        width: 290px;
+        margin-top: 10px;
+        width: 250px;
     }
     
 }
 
-/*  */
+/* styling social icons */
 .fa {
     padding: 18px;
     font-size: 20px;
