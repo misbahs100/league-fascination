@@ -5,7 +5,7 @@ import './Features.css';
 const Features = () => {
     return (
         <div className="features">
-
+ 
             <Navbar></Navbar>
             <div className="container">
                 <h2 className="text-primary text-center mt-5">Welcome to features box.</h2>
