@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# League Fascination
 
 Visit the project with this [Live Site](https://league-fascination.netlify.app).
 
