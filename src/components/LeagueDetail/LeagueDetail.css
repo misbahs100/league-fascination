@@ -4,7 +4,6 @@
    
 }
 .league-pic{
-    /* border: 1px solid green; */
     align-items: center;
     display: flex;
     /* margin-left: 55px; */
@@ -12,29 +11,22 @@
     
 }
 .league-detail{
-    /* background-color: rgb(124, 211, 93); */
     background-color: rgb(228, 225, 225);
     border-radius: 10px;
     margin-top: 20px;
     padding: 20px;
     cursor: pointer;
-    /* box-shadow: -10px 10px 15px grey; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     transition: transform 0.5s, width 0.5s;
     
 }
 .league-detail:hover{
-    /* width: 99%; */
-    /* padding: 15px; */
     transform: translateY(-10px);
 }
 
 .detail-container{
     margin: auto;
     width: 80%;
-    /* border: 1px solid red; */
-    /* background-color: green; */
-    
 }
 .league-info{
     /* border: 1px solid black; */
@@ -58,6 +50,7 @@
    
 }
 
+/* media queries for mobile */
 @media only screen and (max-width: 600px) {
     .league-detail{
         flex-direction: column;
@@ -73,8 +66,7 @@
     .league-pic img{
         margin-top: 10px;
         width: 230px;
-    }
-    
+    }  
 }
 
 /* styling social icons */
@@ -88,16 +80,12 @@
     margin: 5px 2px;
     border-radius: 50%;
   }
-  
   .fa:hover {
       opacity: 0.7;
-      
   }
-  
   .fa-facebook {
     background: #3B5998;
     color: white;
-    
   }
   .fa-twitter {
     background: #55ACEE;

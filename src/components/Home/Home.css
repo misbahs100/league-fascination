@@ -1,24 +1,16 @@
 .league-container{
-    /* display: grid;
-    margin-left: 5px;
-    grid-template-columns: repeat(3, 1fr); */
-    display: grid;
-  /* grid-template-columns: 200px 200px 200px; */
+  display: grid;
   grid-template-columns: repeat(3, 18rem);
   justify-content: space-around;
   /* margin-left: 5%; */
-  /* margin: auto; */
   margin-top: 30px;
   padding: 10px;
-
-/* background-color: black; */
 }
 @media only screen and (max-width: 600px) {
     .league-container{
         display: block;
         align-items: center;
         text-align: center;
-        /* margin-left: 5%; */
         margin: 0 auto;
     }
   }

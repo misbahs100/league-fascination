@@ -1,11 +1,13 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFutbol } from '@fortawesome/free-solid-svg-icons';
 import './NothingFound.css';
 
 const NothingFound = () => {
     return (
         <div className="nothing-found">
             <h4>It seems like there aren't many great results for your search</h4>
-            <h1>404 Not Found !</h1>
+            <h1>4<FontAwesomeIcon icon={faFutbol} />4 Not Found !</h1>
         </div>
     );
 };
