@@ -4,11 +4,14 @@
     grid-template-columns: repeat(3, 1fr); */
     display: grid;
   /* grid-template-columns: 200px 200px 200px; */
-  grid-template-columns: repeat(3, 1fr);
-  margin-left: 5%;
-  margin-top: 20px;
-  
+  grid-template-columns: repeat(3, 18rem);
+  justify-content: space-between;
+  /* margin-left: 5%; */
+  /* margin: auto; */
+  margin-top: 30px;
+  padding: 10px;
 
+/* background-color: black; */
 }
 @media only screen and (max-width: 600px) {
     .league-container{

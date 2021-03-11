@@ -10,9 +10,10 @@ const Home = () => {
         .then(res => res.json())
         .then(data => setLeagues(data.countrys))
     }, [])
+    
     return (
         <div >
-            <Header banner="nothing"></Header>
+            <Header banner="default"></Header>
            <div className="league-container container">
            {
                 leagues.map(league => <League league={league} key={league.idLeague}></League>)

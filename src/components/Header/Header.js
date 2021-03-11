@@ -1,20 +1,29 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
+
 import './Header.css';
+
 
 
 const Header = (props) => {
     // console.log(props.banner)
-
+    // console.log(props)
+    const { banner, name } = props;    // destructuring
     return (
-        <div className="header">
-          
-                {(props.banner === "nothing")
+        <div>
+           <Navbar></Navbar>
+
+            <div className="header">
+                
+                {(banner === "default")
                     ? <h2 className="heading">League Fascination</h2>
-                    : <img src={props.banner} alt="" />
-
+                    : ((banner === null)
+                        ? <h2 className="heading">{name}</h2>
+                        : <img src={banner} alt="" />)
                 }
-            
 
+
+            </div>
         </div>
     );
 };

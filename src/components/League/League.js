@@ -13,7 +13,7 @@ const League = (props) => {
         <div className="league">
             {/* <h1>id: {idLeague}</h1>
             <h2>Name: {strLeague}</h2> */}
-            <Card className="card-league" style={{ width: '18rem' , height: '16rem', borderRadius: '10px', boxShadow: '5px 5px 5px 5px lightgray'}}>
+            <Card className="card-league">
                 <div className="text-center">
                     <Card.Img variant="top" src={strBadge} style={{width: '5rem', marginTop: '5px'}}/>
                 </div>
@@ -22,9 +22,8 @@ const League = (props) => {
                     <Card.Text style={{textAlign: 'center'}}>
                         Sports type: {strSport}
                     </Card.Text>
-                    <div className="button-div">
-                        
-                        <Link to={`/league/${idLeague}`}>
+                    <div className="button-div">  
+                        <Link to={`/league/${idLeague}`}>    
                            <button className="btn btn-success exploreBtn"><b>Explore</b> <FontAwesomeIcon icon={faArrowRight} /></button>    
                         </Link>                        
                     </div>
